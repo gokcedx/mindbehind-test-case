@@ -1,5 +1,6 @@
 package com.gokcedx.mindbehind.testcase.model;
 
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,6 +12,7 @@ import java.io.Serializable;
  */
 @Getter
 @Setter
+@EqualsAndHashCode
 public class CommentDto implements Serializable {
     private Long id;
     private String body;
